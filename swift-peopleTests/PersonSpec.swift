@@ -24,7 +24,7 @@ class PersonSpec: QuickSpec {
                 tom = Person.init(name: "Tom", ageInYears: nil)
                 mark = Person.init(name: "Mark", ageInYears: 29)
             
-                jenny = Person(name: "Jenny")
+                jenny = Person(realName: "Jenny")
                 johnDoe = Person()
             }
             
